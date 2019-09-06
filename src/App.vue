@@ -1,18 +1,18 @@
 <template>
   <v-app>
     <v-content>
-      <CustomFilterDatatableComponent></CustomFilterDatatableComponent>
+      <FilterAtColumn />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import CustomFilterDatatableComponent from './components/custom-filter-datatable-component/custom-filter-datatable-component.vue';
+import FilterAtColumn from './components/filter-at-column/filter-at-column.vue';
 
 export default {
   name: 'App',
   components: {
-    CustomFilterDatatableComponent,
+    FilterAtColumn,
   },
   data: () => ({
     //
